@@ -1,0 +1,16 @@
+{
+  "name": "DiscordDMMessageBot",
+  "description": "Discord sunucunuzdaki üyelere rate limite takılmadan botunuz kapatılmadan DM duyurusu göndermenizi sağlayan bir sistem altyapısı.",
+  "author": "Athe - Emir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": ["Bot", "Discord", "DM", "Message", "Rate Limit"],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.20.0"
+  }
+}
