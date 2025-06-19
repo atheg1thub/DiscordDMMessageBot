@@ -48,7 +48,7 @@ async function runBotTask(client, botIndex, totalBots, guildId, message, logChan
                 await logChannel.send(`❌ <@${member.user.id}> kişisine mesaj gönderilemedi.`);
             }
 
-            await delay(800); // biraz daha farklı gecikme
+            await delay(800);
         }
 
     } catch (err) {
